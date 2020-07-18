@@ -52,8 +52,6 @@ int main() {
     node* head = create_list();
     display_list(head);
 
-    // It is assumend that a list has at least two elements.
-
     node* prev = nullptr;
     node* curr = head;
     node* next = nullptr;
